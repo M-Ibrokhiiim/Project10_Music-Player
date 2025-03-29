@@ -154,11 +154,11 @@ nextBTN.addEventListener('click',()=>{
     pause_play.classList.remove('fa-play')
 })
 
-// backwarfBTN
+// backwardfBTN
 
 const backwardBTN=document.getElementById('backwardBTN')
 
-backwardBTN.addEventListener(~'click',()=>{
+backwardBTN.addEventListener('click',()=>{
     musicIndex=(musicIndex-1)%musics.length
 
     if(musicIndex===-1){
