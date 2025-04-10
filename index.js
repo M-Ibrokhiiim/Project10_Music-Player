@@ -8,7 +8,7 @@
  6.Playing backward music through backward button
 
  `
- 
+ "use strict"
  
 
 const musics=[
